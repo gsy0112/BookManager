@@ -1,16 +1,12 @@
 package com.book.pojo;
 import java.util.List;
-/**
- * 分页实体类
- * @author lindy
- * @创建时间 2020年4月12日下午10:48:12
- */
+
 public class Pager {
-	private int currPage = 1;// 当前页
-	private int pageSize = 3;// 每页显示数据条数
-	private int totalCount;// 总数据条数
-	private int totalPages;// 总页数
-	private List<Object> pageLists;// 装分页数据的集合
+	private int currPage = 1;
+	private int pageSize = 3;
+	private int totalCount;
+	private int totalPages;
+	private List<Object> pageLists;
 	public int getCurrPage() {
 		return currPage;
 	}
